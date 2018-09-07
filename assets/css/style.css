@@ -1,0 +1,179 @@
+
+
+@font-face {
+	font-family: "thisfont";
+	src: url("../fonts/amatic-sc/AmaticSC-Regular.ttf");
+}
+
+* {
+	font-family: thisfont;
+}
+
+/*COLORS************/
+
+.name {
+	color: olivedrab;
+	background-color: lightsalmon;
+}
+
+.hex {
+	color: #f4c20d; /*google yellow*/
+}
+
+.hsla {
+	background-color: hsla(240,50%,80%,0.7%);
+}
+
+.opacity {
+	background-color: red;
+	opacity: 0.7;
+}
+
+
+/*TEXT************/
+
+.css {
+	font-weight: 900;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.lowercase {
+	text-transform: lowercase;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.linethrough {
+	text-decoration: line-through;
+}
+
+.letterspacing {
+	letter-spacing: 0.25em;
+}
+
+.alignleft {
+	text-align: left;
+}
+
+.alignright {
+	text-align: right;
+}
+
+.alignjustify {
+	text-align: justify;
+}
+
+.indent {
+	text-indent: 2em;
+}
+
+.textshadow {
+	font-weight: 700;
+	text-shadow: 10px 5px lightgray;
+}
+
+.link a {
+	color: green;
+	text-decoration: none;
+	font-weight: 900;
+}
+
+.visited a:visited {
+	color: red;
+}
+
+.hover a:hover {
+	color: darkgray;
+	padding: 2em;
+	background-color: papayawhip;
+}
+
+.active a:active {
+	background-color: aqua;
+	padding: 2em;
+}
+
+/*.focus a:focus {
+	background-color: slategray;
+	padding: 2em;
+}*/
+
+.focus-me:focus {
+	background-color: mistyrose;
+}
+
+input[class="focus-me"] {
+	width: 80%;
+}
+
+
+
+/*FONT************/
+
+.downloadedfont {
+	font-family: "thisfont";
+	color: olivedrab;
+	background-color: lightsalmon;
+}
+
+.opensourcefont {
+	font-family: 'Roboto Condensed', Arial, sans-serif;
+}
+
+.serif {
+	font-family: Georgia, serif;
+	text-transform: capitalize;
+}
+
+.sansserif {
+	font-family: Verdana, Arial, sans-serif;
+}
+
+.monospace {
+	font-family: Courier;
+	color: blue;
+}
+
+.cursive {
+	font-family: "Monotype Corsiva";
+}
+
+.fantasy {
+	font-family: Haettenschweiler, Impact;
+}
+
+.pixels {
+	font-size: 16px;
+}
+
+.percent {
+	font-size: 2%;
+}
+
+.ems {
+	font-size: 2em;
+}
+
+/*BOX************/
+
+
+
+
+/*LIST************/
+
+/*BACKGROUND************/
+
+
