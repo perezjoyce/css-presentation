@@ -169,11 +169,132 @@ input[class="focus-me"] {
 
 /*BOX************/
 
+.width {
+	width: 500px;
+	height: 500px;
+}
 
+.minwidth {
+	min-width: 200px;
+	background-color: red;
+}
+
+.maxwidth {
+	max-width: 500px;
+	background-color: pink;
+}
+
+.overflowhidden {
+	padding-top: 0;
+	overflow: hidden;
+}
+
+.minheight {
+	min-height: 100px;
+}
+
+.maxheight {
+	max-height: 100px;
+}
+
+.overflowscroll {
+	padding-top: 0;
+	overflow: scroll;
+}
+
+.borderwidth {
+	border: 10px double green;
+}
+
+.borderstyle {
+	/*border-style: groove;*/
+	border-top: 5px dashed yellow;
+	border-left: 20px groove red;
+	border-right: 10px dotted blue;
+	border-bottom: 5px double orange;
+}
+
+.bordercolor {
+	border-color: lightgray;
+}
+
+.block {
+	display: block;
+}
+
+.inline {
+	display: inline;
+}
+
+.inline-block {
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+}
+
+.none {
+	display: none;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.visible {
+	visibility: visible;
+}
+
+.boxshadow {
+	box-shadow: 10px -20px 50px red;
+	/*values: vertical, horizontal, blur and color*/
+}
+
+.roundedcorner {
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 25px;
+	/*border-radius: 50%;*/
+}
 
 
 /*LIST************/
 
+.ulisttype li {
+	list-style-type: square;
+	/*list-style: square inside url("anime.gif")*/
+}
+
+.olisttype li {
+	list-style: hiragana;
+}
+
+
 /*BACKGROUND************/
 
+.backgroundimg {
+	/*background-image: url('assets/images/review1.jpeg');
+	background-color: red;*/
+	background: url('../images/review1.jpeg') red;
+}
 
+.repeatx {
+	background: url('../images/review1.jpeg') red;
+	background-repeat: repeat-x;
+	/*repeat background horizontally*/
+}
+
+.repeaty {
+	background: url('../images/review1.jpeg') red;
+	background-repeat: repeat-y;
+	/*repeat background vertically*/
+}
+
+.repeat {
+	background: url('../images/review1.jpeg') red;
+	background-repeat: repeat;
+	/*default*/
+}
+
+.norepeat {
+	background: url('../images/review1.jpeg') red;
+	background-repeat: no-repeat;
+}
